@@ -2,7 +2,7 @@
 
 Made by Michael Hintz
 
-
+[Github pages](https://michaelhintz16.github.io/cpnt262-1/)
 
 # about
 this is a light to dark mode button. i used a checkbox and addeventlistener elements
