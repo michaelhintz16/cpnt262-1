@@ -1,0 +1,76 @@
+
+    @import url("https://fonts.googleapis.com/css?family=Fredoka+One&display=swap");
+    /* Background for when its light*/
+  html {
+      background: var(--backg);
+      --btn: #2ab1ce;
+      --backg:orange;
+      --primary-color: black;
+        width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    /* the lettering colors for when its in dark mode*/
+    html[data-theme='dartheme'] {
+      background: var(--backg);
+      --btn: #ea4b3c;
+      --backg: black;
+      --secondary-color: brown;
+    }
+
+    h1 {
+      /* the font family/lettering for light */
+      font-family: 'Fredoka One', cursive;
+      font-weight: 300;
+      color: var(--secondary-color);
+    }
+    /* the font family/lettering for light */
+    h2 {
+      font-family: 'Fredoka One', cursive;
+      font-weight: 100;
+      color: var(--primary-color);
+    }
+    /* the check box that ticks off when its clicked*/
+    input[type=checkbox] {
+      visibility: hidden;
+      height: 0;
+      width: 0;
+      content: ''
+      
+    }
+    /* the actual button look of what you click*/
+    label {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100px;
+      position: relative;
+      cursor: pointer;
+      text-indent: -9999px;
+      width: 55px;
+      height: 30px;
+      background: var(--btn);
+    }
+    /* the black dot on the button*/
+    label:after { 
+      border-radius: 50%;
+      position: absolute;
+      content: '';
+      background: black;
+      width: 20px;
+      height: 20px;
+      top: 5px; 
+      left: 4px;
+      transition: ease-in-out 200ms; 
+    }
+    /* allowing the dot to slide over when checked*/
+    
+    input:checked + label:after {
+      left: calc(100% - 5px);
+      transform: translateX(-100%);
+    }
+    
