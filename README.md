@@ -16,7 +16,7 @@ i made it so that when you click on the button the black circle switches over to
 # problems
 * one problem i had was in the css, all the colors are --primary color and --secondary color, but for some reason the secondary color when i switch it to dark mode the words js is cool seem to go away. 
 * Also i wanted to add a sun icon onto my button and then when it is clicked it goes away but i couldent get that to fuction.
-* one other thing is just noticed is there is a style.css im not sure why that is there since i put my main.css in a css folder  
+* one other thing is just i noticed is there is a style.css im not sure why that is there since i put my main.css in a css folder  
 
 
 
