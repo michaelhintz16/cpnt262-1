@@ -7,7 +7,7 @@ Made by Michael Hintz
 
 # about
 this is a light to dark mode button. i used a checkbox and addeventlistener elements
-i made it so that when you clcick on the button the black circle switches over to the otherside of the button and the background changes from orange to black
+i made it so that when you click on the button the black circle switches over to the otherside of the button and the background changes from orange to black
 . it also has a set time on it so that when it switches over its not so hard on the eyes and goes at a resonable pace
 
 # Attributes 
